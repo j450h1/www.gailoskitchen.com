@@ -1,18 +1,18 @@
 # www.gailoskitchen.com
+
 The new website for gailoskitchen
 
 ## Code
 
-* Setup new site - make sure no other files than *.Rproj, this README and other hidden files (directory is "empty")
+-   Setup new site - make sure no other files than \*.Rproj, this README and other hidden files (directory is "empty")
 
-**https://github.com/seanlane/gochowdown**
+[**https://github.com/seanlane/gochowdown**](https://github.com/seanlane/gochowdown)
 
-```blogdown::new_site(theme = "seanlane/gochowdown")```
+`blogdown::new_site(theme = "seanlane/gochowdown")`
 
-* To preview the website:
+-   To preview the website:
 
-```blogdown::serve_site()```
-
+``` blogdown::serve_site()```
 # Setup
 
 * Under netlify, setup: **Add a custom domain to your site**
@@ -28,10 +28,10 @@ Point www CNAME record to elastic-liskov-5c5411.netlify.app
 
 ## Old website
 
-```	<div class="blurb">
-        		<h1>Hi there, I'm Gurmail!</h1>
-				<p>I make fresh Samosas (Vegetarian only) for pickup in Vancouver!</p>
+``` <div class="blurb">
+                <h1>Hi there, I'm Gurmail!</h1>
+                <p>I make fresh Samosas (Vegetarian only) for pickup in Vancouver!</p>
                                 <p>Contact me for minimum orders of 50 Samosas. <b>604-767-8116</b> </p>
-    		<img src="images/Gailos_Kitchen_Business_Card.jpg">
-    		
+            <img src="images/Gailos_Kitchen_Business_Card.jpg">
+            
 ```
