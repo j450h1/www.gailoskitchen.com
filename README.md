@@ -26,6 +26,10 @@ Point www CNAME record to elastic-liskov-5c5411.netlify.app
 
 * Update baseURL = "https://www.gailoskitchen.com/" under **config.toml**
 
+## To make changes to home page
+
+* You must edit the theme pages directly
+
 ## Old website
 
 ``` <div class="blurb">

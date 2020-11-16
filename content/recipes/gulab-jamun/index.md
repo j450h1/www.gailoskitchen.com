@@ -3,7 +3,7 @@ layout: recipe
 date: 2020-11-15T21:05:55-08:00
 draft: true    
 title:  "Gulab Jamun" # The title of your awesome recipe
-image: awesome-recipe-image.jpg # Name of image in recipe bundle
+image: gulab-jamun.jpg # Name of image in recipe bundle
 imagecredit: https://placekitten.com/600/800 # URL to image source page, website, or creator
 YouTubeID:  # The F2SYDXV1W1w part of https://www.youtube.com/watch?v=F2SYDXV1W1w
 authorName: # Name of the recipe/article author
