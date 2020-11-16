@@ -20,6 +20,8 @@ Point www CNAME record to elastic-liskov-5c5411.netlify.app
 
 * For Google Domains - there is a message that says it can take 48 hours to update after saving the change.
 
+* Or alternatively just setup Netlify DNS under Options in Domain and then follow instructions
+
 ## Old website
 
 ```	<div class="blurb">
