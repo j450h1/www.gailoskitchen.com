@@ -5,6 +5,8 @@ The new website for gailoskitchen
 
 * Setup new site - make sure no other files than *.Rproj, this README and other hidden files (directory is "empty")
 
+**https://github.com/seanlane/gochowdown**
+
 ```blogdown::new_site(theme = "seanlane/gochowdown")```
 
 * To preview the website:

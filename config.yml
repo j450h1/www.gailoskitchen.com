@@ -1,7 +1,7 @@
-baseURL: https://example.com
+baseURL: https://www.gailoskitchen.com/
 disablePathToLower: true
 languageCode: en-us
-title: My Recipes
+title: Gailo's Punjabi Kitchen
 theme: gochowdown
 googleAnalytics: 
 defaultcontentlanguage: en
