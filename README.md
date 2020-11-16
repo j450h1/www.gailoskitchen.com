@@ -22,6 +22,8 @@ Point www CNAME record to elastic-liskov-5c5411.netlify.app
 
 * Or alternatively just setup Netlify DNS under Options in Domain and then follow instructions
 
+* Update baseURL = "https://www.gailoskitchen.com/" under **config.toml**
+
 ## Old website
 
 ```	<div class="blurb">
