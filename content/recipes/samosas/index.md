@@ -1,44 +1,44 @@
 ---
 layout: recipe
-date: 2020-11-15T20:55:24-08:00
-draft: true    
-title:  "Samosas" # The title of your awesome recipe
-image: samosas.jpg # Name of image in recipe bundle
-imagecredit: https://placekitten.com/600/800 # URL to image source page, website, or creator
-YouTubeID:  # The F2SYDXV1W1w part of https://www.youtube.com/watch?v=F2SYDXV1W1w
-authorName: # Name of the recipe/article author
-authorURL: # URL of their home website
-sourceName: # Name of the source website
-sourceURL: # Actual URL of the recipe itself
-category: # The type of meal or course your recipe is about. For example: "dinner", "entree", or "dessert".
-cuisine: # The region associated with your recipe. For example, "French", Mediterranean", or "American".
-tags: # You don't have to have 3, feel free to have 10, 1, or none
-  - tag1
-  - tag2
-  - tag3 
-yield: 8
+title:  "Samosas"
+image: samosas.jpg
+imagecredit: http://allrecipes.com/recipe/25037/best-big-fat-chewy-chocolate-chip-cookie/
+date: 2017-03-16
+
+authorName: Elizabeth BH
+authorURL: http://allrecipes.com/cook/183690/made-it/
+sourceName: All Recipes
+sourceURL: http://allrecipes.com/recipe/25037/best-big-fat-chewy-chocolate-chip-cookie/
+category: Dessert
+tags:
+  - chocolate
+  - cookies
+yield: 7
 prepTime: 15
-cookTime: 45
+cookTime: 15
 
 ingredients:
-- 1 16 oz. box of something
-- 1 12-ounce can something else
-- 3 eggs
-- 1/2 cup unsalted butter
-- 2 cups cheddar cheese, shredded and divided
-- 1 cup mozzarella cheese, shredded
-- 2 tablespoons feta cheese, crumbled
-- 1 cup provolone cheese, cut into small pieces
-- 1/2 cup smoked Gouda cheese, shredded
-- 4 teaspoons salt, divided
-- 2 teaspoons black pepper
+- 2 cups all-purpose flour
+- 1/2 teaspoon baking soda
+- 1/2 teaspoon salt
+- 3/4 cup unsalted butter, melted
+- 1 cup packed brown sugar
+- 1/2 cup white sugar
+- 1 tablespoon vanilla extract
+- 1 egg
+- 1 egg yolk
+- 2 cups semisweet chocolate chips
 
 directions:
-- Preheat oven to 350˚F/180˚C.
-- In a large pot or dutch oven, cook macaroni according to package directions, salting the water with 2 teaspoons of salt. Drain and return to the warm pot.
-- Add butter to warm macaroni and mix until melted. Season with the remaining salt and pepper.
-- Add 1 cup of cheddar, mozzarella, provolone, Gouda, and feta cheese. Mix well.
-- Add eggs and evaporated milk, mix until fully incorporated.
-- Transfer to a 9x13-inch baking dish and top with the remaining cheddar cheese.
-- Bake in a preheated oven for 40–45 minutes, until the top has nicely browned.
+- Preheat the oven to 325 degrees F (165 degrees C). 
+- Grease cookie sheets or line with parchment paper.
+- Sift together the flour, baking soda and salt; set aside.
+- In a medium bowl, cream together the melted butter, brown sugar and white sugar until well blended. 
+- Beat in the vanilla, egg, and egg yolk until light and creamy. 
+- Mix in the sifted ingredients until just blended. 
+- Stir in the chocolate chips by hand using a wooden spoon. 
+- Drop cookie dough 1/4 cup at a time onto the prepared cookie sheets. Cookies should be about 3 inches apart.
+- Bake for 15 to 17 minutes in the preheated oven, or until the edges are lightly toasted. 
+- Cool on baking sheets for a few minutes before transferring to wire racks to cool completely.
+
 ---
