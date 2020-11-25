@@ -27,7 +27,7 @@ params:
     - style.css
 menu:
   main:
-    - name: Home
+    - name: Call 604-767-8116 now to place an order!
       weight: 1
       url: /
 taxonomies:
