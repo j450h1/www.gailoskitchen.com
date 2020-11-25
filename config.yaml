@@ -14,8 +14,8 @@ pygmentsOptions: "linenos=table"
 permalinks:
   posts: /posts/:year/:month/:title
 params:
-  author: John Doe
-  description: Recipes used by the Doe family
+  author: Gurmail Sohi
+  description: Vegetarian Samosa Catering
   keywords: 'recipes'
   favicon_32: /images/favicon-32x32.png
   favicon_16: /images/favicon-16x16.png
