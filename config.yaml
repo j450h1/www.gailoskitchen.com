@@ -30,15 +30,6 @@ menu:
     - name: Home
       weight: 1
       url: /
-    - name: Category
-      weight: 2
-      url: /category/
-    - name: Cuisine
-      weight: 3
-      url: /cuisine/
-    - name: Tags
-      weight: 4
-      url: /tags/
 taxonomies:
   category: category
   cusine: cuisine
