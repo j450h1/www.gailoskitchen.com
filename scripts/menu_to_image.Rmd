@@ -1,0 +1,75 @@
+---
+title: "menu_to_image"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(knitr)
+library(kableExtra)
+library(gt)
+library(glue)
+```
+
+```{r}
+df <- tibble::tribble(
+                      ~Food, ~`Regular (2-4 people)`, ~`Large (4-6 people)`,
+                   "Bhurth",                     10L,                   14L,
+            "Chilli Paneer",                     10L,                   14L,
+                     "Daal",                      9L,                   13L,
+                     "Gobi",                      9L,                   13L,
+              "Malai Kofta",                     10L,                   14L,
+            "Mattar Paneer",                      9L,                   13L,
+       "Methi Mattar Malai",                     10L,                   14L,
+              "Mixed Subji",                      9L,                   13L,
+             "Palak Paneer",                     10L,                   14L,
+                  "Raj Mah",                      9L,                   13L,
+                     "Rice",                      6L,                    8L,
+                     "Saag",                     10L,                   14L,
+             "Shahi Paneer",                     10L,                   14L,
+                   "Sholay",                      9L,                   13L,
+        "Roti ($1.50 each)",                      NA,                    NA,
+  "Makki Roti ($2.00 each)",                      NA,                    NA
+  )
+
+```
+
+```{r}
+knitr::kable(df, caption = "menu")
+```
+
+```{r}
+kable(df, caption = "menu") %>%
+  kable_styling(latex_options = c("striped", "scale_down")) %>%
+# row_spec(1, color = "red") %>%
+  as_image(file = here::here('scripts', 'menu1.jpg'),
+           width = 10,
+           height = 10
+           )
+```
+
+```{r}
+df %>%
+  gt() %>%
+  tab_header(
+    title = md("**Menu**"),
+    subtitle = glue::glue("Pricing")
+  ) %>%
+  fmt_currency(
+    columns = c(colnames(df %>% select(-Food))),
+    currency = "USD"
+  ) %>%
+  tab_style(
+    style = list(
+      cell_text(weight = "bold")
+    ),
+    locations = cells_body(columns = vars(Food))
+  ) %>%
+  fmt_missing(
+    columns = 2:3,
+    missing_text = ""
+  ) %>%
+gtsave(here::here("scripts", "menu.png"))
+```
+
