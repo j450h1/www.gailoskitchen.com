@@ -1,8 +1,7 @@
 ---
 layout: recipe
 title:  "Gol Gappa"
-image: gol-gappa
-.jpg
+image: gol-gappa.jpg
 imagecredit: http://allrecipes.com/recipe/25037/best-big-fat-chewy-chocolate-chip-cookie/
 date: 2017-03-16
 
