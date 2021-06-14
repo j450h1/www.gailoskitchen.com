@@ -29,8 +29,9 @@ df <- tibble::tribble(
                      "Saag",                     10L,                   14L,
              "Shahi Paneer",                     10L,                   14L,
                    "Sholay",                      9L,                   13L,
-        "Roti ($1.50 each)",                      NA,                    NA,
-  "Makki Roti ($2.00 each)",                      NA,                    NA
+       "Gol Gappa ($1.50 per serving)",          NA,                    NA,
+       "Roti ($1.50 each)",                      NA,                    NA,
+  "Makki Roti ($2.00 each)",                     NA,                    NA
   )
 
 ```
@@ -64,7 +65,7 @@ df %>%
     style = list(
       cell_text(weight = "bold")
     ),
-    locations = cells_body(columns = vars(Food))
+    locations = cells_body(columns = c(Food))
   ) %>%
   fmt_missing(
     columns = 2:3,
