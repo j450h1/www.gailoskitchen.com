@@ -29,7 +29,7 @@ df <- tibble::tribble(
                      "Saag",                     10L,                   14L,
              "Shahi Paneer",                     10L,                   14L,
                    "Sholay",                      9L,                   13L,
-       "Gol Gappa ($1.50 per serving)",          NA,                    NA,
+       "Gol Gappa ($5.00 per serving)",          NA,                    NA,
        "Roti ($1.50 each)",                      NA,                    NA,
   "Makki Roti ($2.00 each)",                     NA,                    NA
   )
