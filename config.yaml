@@ -4,6 +4,7 @@ languageCode: en-us
 title: Gailo's Punjabi Kitchen
 theme: gochowdown
 googleAnalytics: UA-150936119-1
+googleAnalyticsID: G-KD8T1VLHQ9
 defaultcontentlanguage: en
 paginate: 20
 canonifyurls: true
