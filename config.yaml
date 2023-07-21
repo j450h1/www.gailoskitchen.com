@@ -28,7 +28,7 @@ params:
     - style.css
 menu:
   main:
-    - name: Call 604-767-8116 to place an order!                          $1.50 / samosa - $125 for 100. Minimum 50 samosas.
+    - name: Call 604-767-8116 to place an order!                          $2.00 / samosa - Minimum order\: 50 samosas.
       weight: 1
       url: /
 taxonomies:
